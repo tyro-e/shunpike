@@ -84,7 +84,7 @@
 
     <div class="section-6" >
         <div class="text-container row" style="max-width:1300px;padding-bottom: 15px;">
-            <div class="title" style="">TESTIMONIALS</div>
+            <div class="title">TESTIMONIALS</div>
             <div class="sub-title testimonial-sub">Here is a short line about the testimonials for<b> Shunpike Labs</b></div>
             <div class="col-md-4">
                 <img src="https://www.pulsecms.com/template/prosite/images/quote.png">
@@ -107,9 +107,9 @@
         </div>
     </div>
 
-     <div class="section-7" >
+    <div class="section-7" >
         <div class="text-container row" style="max-width:1300px;padding-bottom: 150px;">
-            <div class="title" style="">NEWSLETTER</div>
+            <div class="title">NEWSLETTER</div>
             <div class="sub-title" style="max-width: 710px;margin:auto">Subscribe to our product newsletter to get notified when we make updates to the product, the community and any tips & discount offers.</div>
             
             <form id="news-form">
@@ -122,7 +122,7 @@
                 </div>
             </form>
         </div>
-     </div>
+    </div>
 
     <div class="footer">
         <div class="footer-points">
@@ -132,13 +132,11 @@
         </div>
 
         <div class="social media">
-            <div class="sm-items"><img src="${createLinkTo(dir: 'images', file: 'facebook.png')}" height="50px"/> </div>
-            <div class="sm-items"><img src="${createLinkTo(dir: 'images', file: 'twitter.png')}" height="50px"/> </div>
-            <div class="sm-items"><img src="${createLinkTo(dir: 'images', file: 'vimeo.png')}" height="50px"/> </div>
-            <div class="sm-items"><img src="${createLinkTo(dir: 'images', file: 'youtube.png')}" height="50px"/> </div>
+            <div class="sm-items"><img src="${createLinkTo(dir: 'images', file: 'facebook.png')}" class="sm-icons"/> </div>
+            <div class="sm-items"><img src="${createLinkTo(dir: 'images', file: 'twitter.png')}" class="sm-icons" /> </div>
+            <div class="sm-items"><img src="${createLinkTo(dir: 'images', file: 'vimeo.png')}" class="sm-icons"/> </div>
+            <div class="sm-items"><img src="${createLinkTo(dir: 'images', file: 'youtube.png')}" class="sm-icons"/> </div>
         </div>
-
-
     </div>
 </body>
 </html>

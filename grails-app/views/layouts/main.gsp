@@ -27,8 +27,6 @@
     <g:layoutBody/>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript" src="${resource(dir:'js',file:'velocity.min.js')}"></script>
-    <script type="text/javascript" src="${resource(dir:'js',file:'velocity.ui.min.js')}"></script>
     <script type="text/javascript" src="${resource(dir:'js',file:'main.js')}"></script>
 </body>
 </html>
