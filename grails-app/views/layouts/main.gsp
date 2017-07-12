@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
-
     <g:layoutHead/>
 </head>
 
@@ -17,7 +16,15 @@
       <div class="container-fluid">
         <ul class="nav navbar-nav">
           <li><g:link controller = "main" style="font-size: 18px;font-weight: 600;color:white">SHUNPIKE LABS</g:link></li>
-          <li style="float: right;"><g:link controller="user" action="login">LOGIN</g:link></li>
+          <li style="float: right;">
+              <g:if test="${session.user==null}">
+                  <g:link controller="user" action="login">LOGIN</g:link>
+              </g:if>
+
+              <g:if test="${session.user!=null}">
+                  <g:link controller="user" action="logout" style="text-transform: uppercase">LOGOUT ${session.user.fullName}</g:link>
+              </g:if>
+          </li>          
           <li style="float: right;"><a>TAB 3</a></li>
           <li style="float: right;"><a>TAB 2</a></li>
           <li style="float: right;"><a>TAB 1</a></li>
